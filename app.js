@@ -1,7 +1,7 @@
 const express = require('express');
 
 const path = require('path');
-
+//Start express app
 const app = express();
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
